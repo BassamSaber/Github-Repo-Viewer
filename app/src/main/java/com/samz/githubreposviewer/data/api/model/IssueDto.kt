@@ -1,0 +1,32 @@
+package com.samz.githubreposviewer.data.api.model
+
+data class IssueDto(
+    val active_lock_reason: String?=null,
+    val assignee: String?=null,
+    val assignees: List<String>?=null,
+    val author_association: String?=null,
+    val body: String?=null,
+    val closed_at: String?,
+    val comments: Int?=null,
+    val comments_url: String?=null,
+    val created_at: String,
+    val events_url: String?=null,
+    val html_url: String?=null,
+    val id: Long,
+    val labels: List<Any>?=null,
+    val labels_url: String?=null,
+    val locked: Boolean?=null,
+    val milestone: String?=null,
+    val node_id: String?=null,
+    val number: Int?=null,
+    val performed_via_github_app: String?=null,
+    val reactions: Reactions?=null,
+    val repository_url: String?=null,
+    val state: String,
+    val state_reason: String?=null,
+    val timeline_url: String?=null,
+    val title: String,
+    val updated_at: String?=null,
+    val url: String?=null,
+    val user: User
+)

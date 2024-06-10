@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GithubReposViewer</string>
+    <string name="show_issues">show issues</string>
+    <string name="stars_count">stars count</string>
+    <string name="forking">Forking: %1$s</string>
+    <string name="language">Language: %1$s</string>
+    <string name="owner_s_avatar_image">Owner\'s avatar image</string>
+    <string name="watchers_count">watchers count</string>
+    <string name="forks_count">forks count</string>
+    <string name="open_link">open link</string>
+    <string name="user_name_or_repository_name_is_missing">User Name or Repository Name is missing.</string>
+    <string name="back">Back</string>
+    <string name="repository_list">Repository List</string>
+    <string name="no_result_has_been_found">No Result has been found</string>
+    <string name="empty_data_image">empty data image</string>
+    <string name="try_again">Try Again</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="error_screen_image">error screen image</string>
+    <string name="issues">%1$s issues</string>
+    <string name="issue_state">Issue state</string>
+    <string name="was_closed_at">#%1$s by %2$s was closed at %3$s</string>
+    <string name="was_opened_at">#%1$s by %2$s was opened at %3$s</string>
+    <string name="str_issues">Issues</string>
+</resources>
